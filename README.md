@@ -1,3 +1,3 @@
 # Seerlink
 
-Node of the decentralized oracle network, bridging on and off-chain computation. 
+Node of the SeerLink decentralized oracle network, bridging on and off-chain computation. 
