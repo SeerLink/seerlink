@@ -1,0 +1,42 @@
+header {
+  width: 100%; }
+  header .logo {
+    background-image: url("../../assets/logo.png");
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  header .links {
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: initial;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+    padding: 15px; }
+    header .links.side {
+      padding: 0 14px; }
+  header .mat-toolbar {
+    background: #2f0e0c; }
+  header .mat-icon {
+    vertical-align: middle;
+    margin: 0 5px; }
+  header a {
+    cursor: pointer; }
+
+.progressBarRow {
+  height: 4px;
+  padding: 0; }
+
+.header-spacer {
+  flex: 1 1 auto; }
+
+.doBtn {
+  color: #3e2723;
+  background-color: white; }
+
+.selectFile {
+  display: none; }
+
+/*# sourceMappingURL=header.component.css.map */

@@ -1,0 +1,19 @@
+
+<mat-grid-list cols="4" rowHeight="350px">
+  <mat-grid-tile *ngFor="let co of coinService.coins">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <img mat-card-avatar src="./../../../assets/icon/{{co.icon}}">
+        <mat-card-title>{{co.name}}</mat-card-title>
+        <mat-card-subtitle>Price: {{co.getShowPrice()}}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <p>
+           {{co.time}}
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+
+</mat-grid-list>
+

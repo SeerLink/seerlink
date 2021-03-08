@@ -1,0 +1,10 @@
+.item-card {
+  left: 50%;
+  transform: translate(-50%, 0px);
+  max-width: 600px; }
+
+.item-header-image {
+  background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
+  background-size: cover; }
+
+/*# sourceMappingURL=home.component.css.map */

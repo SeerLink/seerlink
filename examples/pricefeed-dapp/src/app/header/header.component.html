@@ -1,0 +1,11 @@
+<header>
+  <mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <a [routerLink]="['/']" class="logo"></a>
+      <label>PriceFeed Oracle</label>
+      <span class="header-spacer"></span>
+      <a *ngIf="coinService.lastTx && coinService.lastTx.length > 0" class="gotoExA" (click)="gotoScan()">{{coinService.lastTx}}</a>
+    </mat-toolbar-row>
+
+  </mat-toolbar>
+</header>

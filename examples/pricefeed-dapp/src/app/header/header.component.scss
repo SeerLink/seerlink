@@ -1,0 +1,58 @@
+header {
+  width: 100%;
+  .logo {
+    background-image: url('../../assets/logo.png');
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .links {
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: initial;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+    padding: 15px;
+    &.side {
+      padding: 0 14px;
+    }
+  }
+  .mat-toolbar {
+    background: rgb(12, 1, 121);
+  }
+  .mat-icon {
+    vertical-align: middle;
+    margin: 0 5px;
+  }
+  a {
+    cursor: pointer;
+  }
+}
+
+.progressBarRow {
+  height: 4px;
+  padding: 0;
+}
+
+.header-spacer {
+  flex: 1 1 auto;
+}
+
+.doBtn {
+  color: #3e2723;
+  background-color: white;
+}
+
+.selectFile {
+  display: none;
+}
+
+.gotoExA {
+  font-size: smaller;
+  color: white;
+  text-decoration: underline;
+}
