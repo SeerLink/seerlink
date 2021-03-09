@@ -209,8 +209,8 @@ export class CoinService {
   }
 
   onRequestStart(param:Coin,data:any) {
-    if (param && data && data.events, data.events.ChainlinkRequested && data.events.ChainlinkRequested.returnValues && data.events.ChainlinkRequested.returnValues.id) {
-       param.requestId=data.events.ChainlinkRequested.returnValues.id;
+    if (param && data && data.events, data.events.SerlinkRequested && data.events.SerlinkRequested.returnValues && data.events.SerlinkRequested.returnValues.id) {
+       param.requestId=data.events.SerlinkRequested.returnValues.id;
        console.log(data);
        cs.lastTx=data.transactionHash;
        cs.save();

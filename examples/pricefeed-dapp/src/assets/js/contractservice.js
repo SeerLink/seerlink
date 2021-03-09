@@ -17,7 +17,7 @@ function ContractService() {
           "type": "bytes32"
         }
       ],
-      "name": "ChainlinkCancelled",
+      "name": "SerlinkCancelled",
       "type": "event"
     },
     {
@@ -30,7 +30,7 @@ function ContractService() {
           "type": "bytes32"
         }
       ],
-      "name": "ChainlinkFulfilled",
+      "name": "SerlinkFulfilled",
       "type": "event"
     },
     {
@@ -43,7 +43,7 @@ function ContractService() {
           "type": "bytes32"
         }
       ],
-      "name": "ChainlinkRequested",
+      "name": "SerlinkRequested",
       "type": "event"
     },
     {
@@ -129,7 +129,7 @@ function ContractService() {
     },
     {
       "inputs": [],
-      "name": "getChainlinkOracle",
+      "name": "getSerlinkOracle",
       "outputs": [
         {
           "internalType": "address",
@@ -142,7 +142,7 @@ function ContractService() {
     },
     {
       "inputs": [],
-      "name": "getChainlinkToken",
+      "name": "getSerlinkToken",
       "outputs": [
         {
           "internalType": "address",
@@ -397,7 +397,7 @@ function ContractService() {
 
     this.ZombieFactory = new this.web3.eth.Contract(this.abi,this.contractAddress);
 
-    this.ZombieFactory.events.ChainlinkFulfilled({
+    this.ZombieFactory.events.SerlinkFulfilled({
       fromBlock: 'latest'
     }, function(error, event){
       //console.log(error,event);
