@@ -1,0 +1,1 @@
+yarn workspace @seerlink/contracts belt compile solc
